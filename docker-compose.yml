@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+    ip_worker:
+        build:
+            context: ./test.ip_worker
+            dockerfile: Dockerfile
+      
+    api.ip:
+        build:
+            context: ./test.api.ip
+            dockerfile: Dockerfile
+        
+
+
+

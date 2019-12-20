@@ -13,7 +13,7 @@ This API has swagger installed.
   -This is a worker with .net core, this worker will listen to specific messages with RabbitMQ and EasyNetQ to simulate the HTTP request with direct responses. When a request arrives at the queue, the worker will validate the information and try to ping the IP and return a result of success or error for the specific IP.
   
 
-BBoth projects have Docker configuration to be able to implement the components as a service in a Docker Container.
+Both projects have Docker configuration to be able to implement the components as a service in a Docker Container.
 
 Pendings:
   -Test.API.IP.Tests, the project for testing was created but no completed.
